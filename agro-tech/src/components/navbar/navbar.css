@@ -1,0 +1,114 @@
+.navbar-container {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    align-self: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar__list {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-dark {
+    transition: all 0.3s;
+    border-bottom: 1px solid #252628;
+    background-color: #252628;
+    color: #fff;
+}
+
+.logo {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 8em;
+}
+
+.menu {
+    width: 55%;
+}
+
+
+.menu-list {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.list-item {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .switch {
+    position: relative;
+    display: inline-block;
+    width: 60em;
+    height: 34em;
+}
+
+/* Hide default HTML checkbox */
+/* .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+} */
+
+/* The slider */
+/* .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+} */
+
+/* .slider:before {
+    position: absolute;
+    content: "";
+    height: 26em;
+    width: 26em;
+    left: 4em;
+    bottom: 4em;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+} */
